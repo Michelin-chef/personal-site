@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(gh *)",
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Bash(winget install *)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(where.exe gh *)",
+      "Read(//c//**)",
+      "Bash(C:/Program Files/GitHub CLI/gh auth *)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh\" auth login --with-token)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh\" auth login --hostname github.com --git-protocol https --web)",
+      "Skill(agent-browser)",
+      "Bash(npm i *)"
+    ]
+  }
+}
