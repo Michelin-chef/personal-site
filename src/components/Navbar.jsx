@@ -44,7 +44,7 @@ export default function Navbar() {
           onClick={() => scrollTo('#hero')}
           className="text-lg font-semibold tracking-tight text-[var(--color-text)]"
         >
-          李松霖
+          李灰灰
         </button>
 
         {/* Desktop nav */}

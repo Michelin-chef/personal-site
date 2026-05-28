@@ -1,11 +1,11 @@
 export const personalInfo = {
-  name: '李松霖',
+  name: '李灰灰',
   title: '嵌入式软件开发工程师',
   tagline: '4年嵌入式C/C++开发经验，专注音视频编解码与系统优化',
-  phone: '13365875244',
-  displayPhone: '133****5244',
-  email: '875229172@qq.com',
-  displayEmail: '875****72@qq.com',
+  phone: '13800000000',
+  displayPhone: '138****0000',
+  email: 'zhangwei@example.com',
+  displayEmail: 'zha****ei@example.com',
   avatar: null,
 }
 
@@ -91,7 +91,7 @@ export const projects = [
 ]
 
 export const education = {
-  school: '湖南城市学院',
+  school: '某理工院校',
   degree: '计算机科学 本科',
   period: '2018.06 - 2022.06',
   details: [
