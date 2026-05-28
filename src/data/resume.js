@@ -3,7 +3,9 @@ export const personalInfo = {
   title: '嵌入式软件开发工程师',
   tagline: '4年嵌入式C/C++开发经验，专注音视频编解码与系统优化',
   phone: '13365875244',
+  displayPhone: '133****5244',
   email: '875229172@qq.com',
+  displayEmail: '875****72@qq.com',
   avatar: null,
 }
 

@@ -18,7 +18,14 @@
       "Bash(\"C:/Program Files/GitHub CLI/gh\" auth login --with-token)",
       "Bash(\"C:/Program Files/GitHub CLI/gh\" auth login --hostname github.com --git-protocol https --web)",
       "Skill(agent-browser)",
-      "Bash(npm i *)"
+      "Bash(npm i *)",
+      "Bash(npx gh-pages *)",
+      "Bash(rm -rf node_modules src tailwind.config.js postcss.config.js vite.config.js package.json package-lock.json .gitignore index.html \"李松霖_嵌入式软件开发简历.pdf\" .claude .github)",
+      "Bash(cp -r dist/assets .)",
+      "Bash(start *)",
+      "Bash(nslookup michelin-chef.github.io)",
+      "WebFetch(domain:michelin-chef.github.io)",
+      "Bash(npx wrangler *)"
     ]
   }
 }

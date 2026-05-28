@@ -23,14 +23,14 @@ export default function Contact() {
               className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-[var(--color-card)] border border-[var(--color-border)] hover:scale-[1.02] transition-transform duration-300"
             >
               <Mail size={20} className="text-[var(--color-accent)]" />
-              <span className="text-sm text-[var(--color-text)]">{personalInfo.email}</span>
+              <span className="text-sm text-[var(--color-text)]">{personalInfo.displayEmail}</span>
             </a>
             <a
               href={`tel:${personalInfo.phone}`}
               className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-[var(--color-card)] border border-[var(--color-border)] hover:scale-[1.02] transition-transform duration-300"
             >
               <Phone size={20} className="text-[var(--color-accent)]" />
-              <span className="text-sm text-[var(--color-text)]">{personalInfo.phone}</span>
+              <span className="text-sm text-[var(--color-text)]">{personalInfo.displayPhone}</span>
             </a>
           </div>
         </ScrollReveal>
